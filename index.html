@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso primeiro ano juntos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #e60000;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            text-align: left; /* Alinhar o texto à esquerda */
+        }
+
+        button {
+            background-color: #e60000;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff3333;
+        }
+
+        #imagem {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nosso primeiro ano juntos</h1>
+    <p>
+        Meu amor, não é fácil resumir 1 ano, 365 dias, 8.760 horas e 525.600 minutos dos momentos mais felizes da minha vida, mas irei tentar...<br>
+        Você é a pessoa mais incrível que já conheci em toda minha vida, seu sorriso me traz paz, seu olhinho brilhando me traz alegria,<br>
+        sua risada me faz sentir a pessoa mais sortuda do mundo. Você é, tem sido e sempre será quem eu mais amei, amo e irei amar.<br>
+        Nesse um ano eu aprendi o que é amar e ser amada, o que é não se preocupar em fazer algo esquisito na frente de alguém, nem ter<br>
+        vergonha de xingar em jogo online, percebi que o amor não tem muito filtro porque podemos ser nós mesmos sem ter nem um pinguinho de medo.<br>
+        Você me ensinou a olhar o mundo com outros olhos, com mais bondade, do seu jeito. Seu jeito bondoso sempre me encantou, sabia?<br>
+        Ah e a sua garra? Você se mostra forte e mais forte a cada dia, toda vez que surge um novo desafio você me ensina que podemos superar.<br>
+        Você sabe que não sou muito boa com as palavras, mas deve ser porque o que sinto nunca conseguiria resumir em um simples texto<br>
+        É grandioso demais para caber em letras e parágrafos.
+    </p>
+    <button id="mostrarImagem">Clique para Ver Nossa Imagem</button>
+    <div id="imagem">
+        <img src="declara.png" alt="Você e Seu Namorado">
+    </div>
+    <script>
+        document.getElementById("mostrarImagem").addEventListener("click", function () {
+            document.getElementById("imagem").style.display = "block";
+        });
+    </script>
+</body>
+</html>
